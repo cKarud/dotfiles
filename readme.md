@@ -1,4 +1,4 @@
-### Vegard's dotfiles
+### Camilla's dotfiles
 
 Nice! you want to give these dotfiles a try! you may want to first fork this repository, review the code, and remove 
 things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Your mileage may vary.
