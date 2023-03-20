@@ -1,9 +1,6 @@
 # Fish alias
 source ~/.config/fish/alias.fish
 
-# Fish local
-source ~/.config/fish/local.fish
-
 # Fish export
 source ~/.config/fish/export.fish
 
@@ -38,5 +35,5 @@ set -g fish_color_valid_path --underline
 # My Starship
 starship init fish | source
 
-# Java 11
-java11
+# Java 17
+java17

@@ -25,7 +25,6 @@ link () {
         ln -svf "$PWD/.aliases" "$HOME"
         ln -svf "$PWD/.config/fish/config.fish" "$HOME/.config/fish/config.fish"
         ln -svf "$PWD/.config/fish/alias.fish" "$HOME/.config/fish/alias.fish"
-        ln -svf "$PWD/.config/fish/local.fish" "$HOME/.config/fish/local.fish"
         ln -svf "$PWD/.config/fish/export.fish" "$HOME/.config/fish/export.fish"
         ln -svf "$PWD/.config/fish/completions" "$HOME/.config/fish/completions"
         ln -svf "$PWD/.config/starship.toml" "$HOME/.config/starship.toml"

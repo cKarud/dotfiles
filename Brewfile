@@ -30,7 +30,6 @@ brew 'fish'
 brew 'starship'
 brew 'kubernetes-cli'
 brew 'mkdocs'
-brew 'mvndaemon/homebrew-mvnd/mvnd'
 brew 'kotlin'
 
 # Casks
