@@ -2,7 +2,6 @@ target
 .classpath
 .project
 .settings
-.vagrant
 .idea
 *.iml
 *.bat
@@ -11,3 +10,4 @@ target
 .DS_Store
 *.swp
 Brewfile.lock.json
+.java-version

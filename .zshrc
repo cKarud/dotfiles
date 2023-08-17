@@ -111,3 +111,18 @@ export LANG=en_US.UTF-8
 eval $(thefuck --alias)
 
 export PATH=/Users/cka/Library/Python/3.9/bin:$PATH
+
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#eval
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+#eval
+#eval
+
+# The next line updates PATH for the Google Cloud SDK.
+#if [ -f '/Users/cka/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cka/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+#if [ -f '/Users/cka/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cka/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

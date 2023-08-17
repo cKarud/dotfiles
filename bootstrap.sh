@@ -91,7 +91,19 @@ oh_my_zsh() {
     fi
 }
 
+jenv() {
+    echo "${BLUE}Install jenv?${NC} (y/n)"
+    read resp
+    if [ "$resp" = 'y' -o "$resp" = 'Y' ] ; then
+        echo "installing jenv"
+        sh jenv.exclude.sh
+    else
+        echo "skipping jenv"
+    fi
+}
+
 init
 link
 install_tools
+jenv
 link
